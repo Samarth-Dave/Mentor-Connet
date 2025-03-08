@@ -45,12 +45,12 @@ export function Navigation() {
   }
 
   const navItems = [
-    { name: "Progress", icon: <BarChart3 className="h-4 w-4 mr-2" />, href: "/progress" },
-    { name: "Current Courses", icon: <BookOpen className="h-4 w-4 mr-2" />, href: "/courses" },
-    { name: "Current Mentors", icon: <Users className="h-4 w-4 mr-2" />, href: "/mentors" },
-    { name: "AI Buddy", icon: <Bot className="h-4 w-4 mr-2" />, href: "/ai-buddy" },
-    { name: "Calendar", icon: <Calendar className="h-4 w-4 mr-2" />, href: "/calendar" },
-    { name: "Explore", icon: <Compass className="h-4 w-4 mr-2" />, href: "/explore" },
+    { name: "Progress", icon: <BarChart3 className="h-4 w-4 mr-2" />, href: "/mentee/progress" },
+    { name: "Current Courses", icon: <BookOpen className="h-4 w-4 mr-2" />, href: "/mentee/courses" },
+    { name: "Current Mentors", icon: <Users className="h-4 w-4 mr-2" />, href: "/mentee/mentors" },
+    { name: "AI Buddy", icon: <Bot className="h-4 w-4 mr-2" />, href: "/mentee/ai-buddy" },
+    { name: "Calendar", icon: <Calendar className="h-4 w-4 mr-2" />, href: "/mentee/calendar" },
+    { name: "Explore", icon: <Compass className="h-4 w-4 mr-2" />, href: "/mentee/explore" },
   ]
 
   return (
